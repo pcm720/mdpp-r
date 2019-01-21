@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/pcm/Desktop/HDMI Switch/KiCAD/HDMISW.sch</source>
+    <date>31.07.2018 1:26:23</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HDMISW.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="ISP1">
+      <value>AVR-ISP-6</value>
+      <footprint>Custom:AVR-ISP-6-TH</footprint>
+      <libsource lib="atmel" part="AVR-ISP-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AAD7C7C</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>MF-MSMF050-2</value>
+      <footprint>Resistors_SMD:R_1812_HandSoldering</footprint>
+      <libsource lib="device" part="Polyfuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AAF7B99</tstamp>
+    </comp>
+    <comp ref="С15">
+      <value>100 nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AAFA959</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AAFD3B4</tstamp>
+    </comp>
+    <comp ref="С14">
+      <value>47 uF 10V</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Hand</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AAFA7E4</tstamp>
+    </comp>
+    <comp ref="B2">
+      <value>1243SHIM</value>
+      <footprint>Custom:TL3300</footprint>
+      <libsource lib="Custom" part="TL3300"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB0532B</tstamp>
+    </comp>
+    <comp ref="B3">
+      <value>1243SHIM</value>
+      <footprint>Custom:TL3300</footprint>
+      <libsource lib="Custom" part="TL3300"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB053F5</tstamp>
+    </comp>
+    <comp ref="B4">
+      <value>1243SHIM</value>
+      <footprint>Custom:TL3300</footprint>
+      <libsource lib="Custom" part="TL3300"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB054C2</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB1229E</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB13CEA</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB13F7C</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AB14043</tstamp>
+    </comp>
+    <comp ref="B5">
+      <value>1243SHIM</value>
+      <footprint>Custom:TL3300</footprint>
+      <libsource lib="Custom" part="TL3300"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B34FB28</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B34FB35</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>MicroUSB</value>
+      <footprint>Connectors_USB:USB_Micro-B_Molex_47346-0001</footprint>
+      <libsource lib="Custom" part="MicroUSB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B34FF2E</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>AMS1117-3.3</value>
+      <footprint>Custom:AMS1117-3.3</footprint>
+      <libsource lib="Custom" part="AMS1117-3.3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B35009A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>HD3SS215</value>
+      <footprint>Custom:HD3SS215RTQT</footprint>
+      <libsource lib="Custom" part="HD3SS215"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B350177</tstamp>
+    </comp>
+    <comp ref="С17">
+      <value>100 nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B351B7A</tstamp>
+    </comp>
+    <comp ref="С16">
+      <value>47 uF 10V</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Hand</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B351B80</tstamp>
+    </comp>
+    <comp ref="HDMI1">
+      <value>HDMI</value>
+      <footprint>Custom:HDMI_Female</footprint>
+      <libsource lib="Custom" part="HDMI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3501AA</tstamp>
+    </comp>
+    <comp ref="HDMI5">
+      <value>HDMI</value>
+      <footprint>Custom:HDMI_Female_Reversed</footprint>
+      <libsource lib="Custom" part="HDMI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B351238</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>HD3SS215</value>
+      <footprint>Custom:HD3SS215RTQT</footprint>
+      <libsource lib="Custom" part="HD3SS215"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3515B0</tstamp>
+    </comp>
+    <comp ref="С1">
+      <value>0.1 uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3525F5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3525FB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3535B2</tstamp>
+    </comp>
+    <comp ref="HDMI2">
+      <value>HDMI</value>
+      <footprint>Custom:HDMI_Female</footprint>
+      <libsource lib="Custom" part="HDMI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B358CCD</tstamp>
+    </comp>
+    <comp ref="С2">
+      <value>0.1 uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B358CD4</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B358CDA</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B358CE6</tstamp>
+    </comp>
+    <comp ref="HDMI3">
+      <value>HDMI</value>
+      <footprint>Custom:HDMI_Female</footprint>
+      <libsource lib="Custom" part="HDMI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B358F2E</tstamp>
+    </comp>
+    <comp ref="С3">
+      <value>0.1 uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B358F35</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B358F3B</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B358F47</tstamp>
+    </comp>
+    <comp ref="HDMI4">
+      <value>HDMI</value>
+      <footprint>Custom:HDMI_Female</footprint>
+      <libsource lib="Custom" part="HDMI"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3594E3</tstamp>
+    </comp>
+    <comp ref="С4">
+      <value>0.1 uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3594EA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3594F0</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3594FC</tstamp>
+    </comp>
+    <comp ref="С12">
+      <value>0.1 uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B359B98</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B359B9E</tstamp>
+    </comp>
+    <comp ref="С7">
+      <value>0.1 uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B35F152</tstamp>
+    </comp>
+    <comp ref="С5">
+      <value>0.1 uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B35F329</tstamp>
+    </comp>
+    <comp ref="С8">
+      <value>0.1 uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B364FCD</tstamp>
+    </comp>
+    <comp ref="С6">
+      <value>0.1 uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B364FD3</tstamp>
+    </comp>
+    <comp ref="С10">
+      <value>0.1 uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B370876</tstamp>
+    </comp>
+    <comp ref="С9">
+      <value>0.1 uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B37087C</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B372766</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B372772</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>HD3SS215</value>
+      <footprint>Custom:HD3SS215RTQT</footprint>
+      <libsource lib="Custom" part="HD3SS215"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B35168D</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B37A7F6</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B37AC8B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>KP-2012SGD</value>
+      <footprint>Custom:KP-2012SGD</footprint>
+      <libsource lib="Custom" part="KP-2012SGD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B385604</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3868A0</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>KP-2012SGD</value>
+      <footprint>Custom:KP-2012SGD</footprint>
+      <libsource lib="Custom" part="KP-2012SGD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B387C36</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B387C3C</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>KP-2012SGD</value>
+      <footprint>Custom:KP-2012SGD</footprint>
+      <libsource lib="Custom" part="KP-2012SGD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B387D6C</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B387D72</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>KP-2012SGD</value>
+      <footprint>Custom:KP-2012SGD</footprint>
+      <libsource lib="Custom" part="KP-2012SGD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B387E3C</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B387E42</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3915FD</tstamp>
+    </comp>
+    <comp ref="B1">
+      <value>1243SHIM</value>
+      <footprint>Custom:TL3300</footprint>
+      <libsource lib="Custom" part="TL3300"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AAD7CD3</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>KP-2012SGD</value>
+      <footprint>Custom:KP-2012SGD</footprint>
+      <libsource lib="Custom" part="KP-2012SGD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3ADECB</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>ATMEGA88PA-AU</value>
+      <footprint>Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm</footprint>
+      <libsource lib="atmel" part="ATMEGA88PA-AU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3B0FB1</tstamp>
+    </comp>
+    <comp ref="С13">
+      <value>100 nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B37DBB8</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAT54</value>
+      <footprint>Diodes_SMD:D_SOT-23_ANK</footprint>
+      <libsource lib="device" part="D_Schottky_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B37FB46</tstamp>
+    </comp>
+    <comp ref="С11">
+      <value>100 nF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B380761</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Custom" part="AMS1117-3.3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_in"/>
+        <pin num="3" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="atmel" part="ATMEGA168A-AU">
+      <aliases>
+        <alias>ATMEGA48A-AU</alias>
+        <alias>ATMEGA48PA-AU</alias>
+        <alias>ATMEGA88A-AU</alias>
+        <alias>ATMEGA88PA-AU</alias>
+        <alias>ATMEGA168PA-AU</alias>
+        <alias>ATMEGA328-AU</alias>
+        <alias>ATMEGA328P-AU</alias>
+      </aliases>
+      <description>TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM</description>
+      <docs>http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*7x7mm*Pitch0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA168A-AU</field>
+        <field name="Footprint">Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT19/OC2B/INT1)PD3" type="BiDi"/>
+        <pin num="2" name="(PCINT20/XCK/T0)PD4" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="(PCINT6/XTAL1/TOSC1)PB6" type="BiDi"/>
+        <pin num="8" name="(PCINT7/XTAL2/TOSC2)PB7" type="BiDi"/>
+        <pin num="9" name="(PCINT21/OC0B/T1)PD5" type="BiDi"/>
+        <pin num="10" name="(PCINT22/OC0A/AIN0)PD6" type="BiDi"/>
+        <pin num="11" name="(PCINT23/AIN1)PD7" type="BiDi"/>
+        <pin num="12" name="(PCINT0/CLKO/ICP1)PB0" type="BiDi"/>
+        <pin num="13" name="(PCINT1/OC1A)PB1" type="BiDi"/>
+        <pin num="14" name="(PCINT2/OC1B/~SS~)PB2" type="BiDi"/>
+        <pin num="15" name="(PCINT3/OC2A/MOSI)PB3" type="BiDi"/>
+        <pin num="16" name="(PCINT4/MISO)PB4" type="BiDi"/>
+        <pin num="17" name="(PCINT5/SCK)PB5" type="BiDi"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="input"/>
+        <pin num="20" name="AREF" type="BiDi"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="ADC7" type="input"/>
+        <pin num="23" name="(PCINT8/ADC0)PC0" type="BiDi"/>
+        <pin num="24" name="(PCINT9/ADC1)PC1" type="BiDi"/>
+        <pin num="25" name="(PCINT10/ADC2)PC2" type="BiDi"/>
+        <pin num="26" name="(PCINT11/ADC3)PC3" type="BiDi"/>
+        <pin num="27" name="(PCINT12/SDA/ADC4)PC4" type="BiDi"/>
+        <pin num="28" name="(PCINT13/SCL/ADC5)PC5" type="BiDi"/>
+        <pin num="29" name="(PCINT14/~RESET~)PC6" type="BiDi"/>
+        <pin num="30" name="(PCINT16/RXD)PD0" type="BiDi"/>
+        <pin num="31" name="(PCINT17/TXD)PD1" type="BiDi"/>
+        <pin num="32" name="(PCINT18/INT0)PD2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="atmel" part="AVR-ISP-6">
+      <description>Standard IDC6 Male Connector, ATMEL ISP 6pin</description>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">AVR-ISP-6</field>
+        <field name="Footprint">AVR-ISP-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky_ALT">
+      <description>Schottky diode, alternativ symbol</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="HD3SS215">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HD3SS215</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AUX_SEL" type="BiDi"/>
+        <pin num="2" name="DC0p" type="BiDi"/>
+        <pin num="3" name="DC0n" type="BiDi"/>
+        <pin num="4" name="GND1" type="power_in"/>
+        <pin num="5" name="DC1p" type="BiDi"/>
+        <pin num="6" name="DC1n" type="BiDi"/>
+        <pin num="7" name="GND2" type="power_in"/>
+        <pin num="8" name="DC2p" type="BiDi"/>
+        <pin num="9" name="DC2n" type="BiDi"/>
+        <pin num="10" name="GND3" type="power_in"/>
+        <pin num="11" name="DC3p" type="BiDi"/>
+        <pin num="12" name="DC3n" type="BiDi"/>
+        <pin num="13" name="AUXCp" type="BiDi"/>
+        <pin num="14" name="AUXCn" type="BiDi"/>
+        <pin num="15" name="HPDC" type="BiDi"/>
+        <pin num="16" name="HPDA" type="BiDi"/>
+        <pin num="17" name="HPDB" type="BiDi"/>
+        <pin num="18" name="DDCCLK_C" type="BiDi"/>
+        <pin num="19" name="VDD1" type="power_in"/>
+        <pin num="22" name="DDCCLK_B" type="BiDi"/>
+        <pin num="23" name="DDCDAT_B" type="BiDi"/>
+        <pin num="24" name="AUXBp" type="BiDi"/>
+        <pin num="25" name="AUXBn" type="BiDi"/>
+        <pin num="26" name="DDCDAT_C" type="BiDi"/>
+        <pin num="27" name="DDCCLK_A" type="BiDi"/>
+        <pin num="28" name="DDCDAT_A" type="BiDi"/>
+        <pin num="29" name="AUXAn" type="BiDi"/>
+        <pin num="30" name="AUXAp" type="BiDi"/>
+        <pin num="31" name="DB3n" type="BiDi"/>
+        <pin num="32" name="DB3p" type="BiDi"/>
+        <pin num="33" name="GND4" type="power_in"/>
+        <pin num="34" name="DB2n" type="BiDi"/>
+        <pin num="35" name="DB2p" type="BiDi"/>
+        <pin num="36" name="GND5" type="power_in"/>
+        <pin num="37" name="DB1n" type="BiDi"/>
+        <pin num="38" name="DB1p" type="BiDi"/>
+        <pin num="39" name="GND6" type="power_in"/>
+        <pin num="40" name="DB0n" type="BiDi"/>
+        <pin num="41" name="DB0p" type="BiDi"/>
+        <pin num="43" name="OE" type="BiDi"/>
+        <pin num="44" name="DA3n" type="BiDi"/>
+        <pin num="45" name="DA3p" type="BiDi"/>
+        <pin num="46" name="GND7" type="power_in"/>
+        <pin num="47" name="DA2n" type="BiDi"/>
+        <pin num="48" name="DA2p" type="BiDi"/>
+        <pin num="49" name="GND8" type="power_in"/>
+        <pin num="50" name="DA1n" type="BiDi"/>
+        <pin num="51" name="DA1p" type="BiDi"/>
+        <pin num="52" name="GND9" type="power_in"/>
+        <pin num="53" name="DA0n" type="BiDi"/>
+        <pin num="54" name="DA0p" type="BiDi"/>
+        <pin num="55" name="VDD2" type="power_in"/>
+        <pin num="56" name="Dx_SEL" type="BiDi"/>
+        <pin num="57" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="HDMI">
+      <fields>
+        <field name="Reference">HDMI</field>
+        <field name="Value">HDMI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TMDS_CH2+" type="BiDi"/>
+        <pin num="2" name="TMDS_CH2_GND" type="power_in"/>
+        <pin num="3" name="TMDS_CH2-" type="BiDi"/>
+        <pin num="4" name="TMDS_CH1+" type="BiDi"/>
+        <pin num="5" name="TMDS_CH1_GND" type="power_in"/>
+        <pin num="6" name="TMDS_CH1-" type="BiDi"/>
+        <pin num="7" name="TMDS_CH0+" type="BiDi"/>
+        <pin num="8" name="TMDS_CH0_GND" type="power_in"/>
+        <pin num="9" name="TMDS_CH0-" type="BiDi"/>
+        <pin num="10" name="TMDS_CLK+" type="BiDi"/>
+        <pin num="11" name="TMDS_CLK_GND" type="power_in"/>
+        <pin num="12" name="TMDS_CLK-" type="BiDi"/>
+        <pin num="13" name="HDMI_CEC" type="BiDi"/>
+        <pin num="14" name="HDMI_HEC" type="power_in"/>
+        <pin num="15" name="DDC_SCL" type="BiDi"/>
+        <pin num="16" name="DDC_SDA" type="BiDi"/>
+        <pin num="17" name="DDC_GND" type="power_in"/>
+        <pin num="18" name="+5V" type="power_in"/>
+        <pin num="19" name="HDMI_HPD" type="BiDi"/>
+        <pin num="20" name="CH_GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="KP-2012SGD">
+      <description>LED generic, alternativ symbol</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">KP-2012SGD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="MicroUSB">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MicroUSB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Polyfuse">
+      <description>resettable fuse, polymeric positive temperature coefficient (PPTC)</description>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="TL3300">
+      <description>Push button switch, generic, symbol, four pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">TL3300</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>C:\Program Files\KiCad\share\kicad\library\atmel.lib</uri>
+    </library>
+    <library logical="Custom">
+      <uri>C:\Users\pcm\Desktop\HDMI Switch\KiCAD\Custom.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U4-Pad20)">
+      <node ref="С13" pin="1"/>
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="2" name="MISO">
+      <node ref="ISP1" pin="1"/>
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="3" name="SCK">
+      <node ref="ISP1" pin="3"/>
+      <node ref="U4" pin="17"/>
+    </net>
+    <net code="4" name="MOSI">
+      <node ref="ISP1" pin="4"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="5" name="Net-(F1-Pad2)">
+      <node ref="J1" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D6-Pad1)">
+      <node ref="R26" pin="2"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="7" name="Net-(HDMI4-Pad20)">
+      <node ref="R4" pin="2"/>
+      <node ref="С4" pin="2"/>
+      <node ref="HDMI4" pin="20"/>
+    </net>
+    <net code="8" name="Net-(HDMI5-Pad20)">
+      <node ref="С12" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="HDMI5" pin="20"/>
+    </net>
+    <net code="9" name="Net-(HDMI2-Pad20)">
+      <node ref="R2" pin="2"/>
+      <node ref="С2" pin="2"/>
+      <node ref="HDMI2" pin="20"/>
+    </net>
+    <net code="10" name="Net-(HDMI1-Pad20)">
+      <node ref="С1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="HDMI1" pin="20"/>
+    </net>
+    <net code="11" name="Net-(HDMI3-Pad20)">
+      <node ref="HDMI3" pin="20"/>
+      <node ref="С3" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="12" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="13" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="14" name="+3V3">
+      <node ref="С10" pin="1"/>
+      <node ref="С9" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="U4" pin="6"/>
+      <node ref="С6" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="С16" pin="1"/>
+      <node ref="U1" pin="55"/>
+      <node ref="U2" pin="19"/>
+      <node ref="U2" pin="55"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="U4" pin="18"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="С17" pin="1"/>
+      <node ref="ISP1" pin="2"/>
+      <node ref="U1" pin="19"/>
+      <node ref="R21" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="С8" pin="1"/>
+      <node ref="С5" pin="1"/>
+      <node ref="С7" pin="1"/>
+      <node ref="U3" pin="19"/>
+      <node ref="U3" pin="55"/>
+    </net>
+    <net code="15" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="16" name="Net-(U4-Pad11)">
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="17" name="Net-(U4-Pad22)">
+      <node ref="U4" pin="22"/>
+    </net>
+    <net code="18" name="HDMI2_EN">
+      <node ref="R23" pin="1"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="19" name="Net-(D4-Pad1)">
+      <node ref="R24" pin="2"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="20" name="GND">
+      <node ref="U1" pin="49"/>
+      <node ref="С17" pin="2"/>
+      <node ref="U1" pin="39"/>
+      <node ref="HDMI5" pin="17"/>
+      <node ref="U1" pin="57"/>
+      <node ref="U1" pin="46"/>
+      <node ref="U1" pin="36"/>
+      <node ref="HDMI5" pin="14"/>
+      <node ref="HDMI5" pin="11"/>
+      <node ref="HDMI5" pin="8"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="49"/>
+      <node ref="U2" pin="39"/>
+      <node ref="U2" pin="46"/>
+      <node ref="U2" pin="36"/>
+      <node ref="U2" pin="57"/>
+      <node ref="HDMI1" pin="2"/>
+      <node ref="С16" pin="2"/>
+      <node ref="HDMI1" pin="5"/>
+      <node ref="HDMI1" pin="8"/>
+      <node ref="HDMI1" pin="11"/>
+      <node ref="HDMI5" pin="2"/>
+      <node ref="HDMI1" pin="14"/>
+      <node ref="HDMI1" pin="17"/>
+      <node ref="HDMI5" pin="5"/>
+      <node ref="HDMI2" pin="11"/>
+      <node ref="HDMI2" pin="8"/>
+      <node ref="HDMI2" pin="5"/>
+      <node ref="HDMI2" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="С1" pin="1"/>
+      <node ref="HDMI3" pin="11"/>
+      <node ref="HDMI3" pin="8"/>
+      <node ref="HDMI3" pin="5"/>
+      <node ref="HDMI3" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="С2" pin="1"/>
+      <node ref="HDMI2" pin="17"/>
+      <node ref="HDMI2" pin="14"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U3" pin="49"/>
+      <node ref="U3" pin="39"/>
+      <node ref="U3" pin="57"/>
+      <node ref="U3" pin="36"/>
+      <node ref="U3" pin="46"/>
+      <node ref="С5" pin="2"/>
+      <node ref="HDMI4" pin="11"/>
+      <node ref="HDMI4" pin="8"/>
+      <node ref="HDMI4" pin="5"/>
+      <node ref="HDMI4" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="С3" pin="1"/>
+      <node ref="HDMI3" pin="17"/>
+      <node ref="HDMI3" pin="14"/>
+      <node ref="D3" pin="2"/>
+      <node ref="С7" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="С12" pin="1"/>
+      <node ref="HDMI4" pin="14"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="С4" pin="1"/>
+      <node ref="HDMI4" pin="17"/>
+      <node ref="U1" pin="33"/>
+      <node ref="U1" pin="52"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="7"/>
+      <node ref="B2" pin="4"/>
+      <node ref="B2" pin="3"/>
+      <node ref="С14" pin="2"/>
+      <node ref="С15" pin="2"/>
+      <node ref="ISP1" pin="6"/>
+      <node ref="B4" pin="4"/>
+      <node ref="B4" pin="3"/>
+      <node ref="B3" pin="4"/>
+      <node ref="B3" pin="3"/>
+      <node ref="U2" pin="33"/>
+      <node ref="С6" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="С9" pin="2"/>
+      <node ref="С10" pin="2"/>
+      <node ref="U3" pin="33"/>
+      <node ref="U2" pin="52"/>
+      <node ref="С8" pin="2"/>
+      <node ref="U3" pin="52"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U5" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="B5" pin="4"/>
+      <node ref="B5" pin="3"/>
+      <node ref="С13" pin="2"/>
+      <node ref="С11" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="B1" pin="4"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="5"/>
+      <node ref="B1" pin="3"/>
+      <node ref="U4" pin="21"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="21" name="HDMI3_EN">
+      <node ref="U4" pin="7"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="22" name="Net-(D5-Pad1)">
+      <node ref="R25" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="23" name="HDMI4_EN">
+      <node ref="R25" pin="1"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="24" name="HDMI1_EN">
+      <node ref="R22" pin="1"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="25" name="OFF">
+      <node ref="U4" pin="32"/>
+      <node ref="B1" pin="1"/>
+      <node ref="B1" pin="2"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="26" name="HDMI1">
+      <node ref="B2" pin="2"/>
+      <node ref="B2" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U4" pin="30"/>
+    </net>
+    <net code="27" name="HDMI2">
+      <node ref="B3" pin="2"/>
+      <node ref="U4" pin="31"/>
+      <node ref="B3" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="28" name="HDMI3">
+      <node ref="U4" pin="1"/>
+      <node ref="B4" pin="1"/>
+      <node ref="B4" pin="2"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="29" name="HDMI4">
+      <node ref="R21" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="B5" pin="1"/>
+      <node ref="B5" pin="2"/>
+    </net>
+    <net code="30" name="SW3_OE">
+      <node ref="U4" pin="24"/>
+      <node ref="U3" pin="43"/>
+    </net>
+    <net code="31" name="SW3_Dx_SEL">
+      <node ref="U4" pin="23"/>
+      <node ref="U3" pin="56"/>
+    </net>
+    <net code="32" name="SW2_Dx_SEL">
+      <node ref="U4" pin="25"/>
+      <node ref="U2" pin="56"/>
+    </net>
+    <net code="33" name="SW2_OE">
+      <node ref="U2" pin="43"/>
+      <node ref="U4" pin="26"/>
+    </net>
+    <net code="34" name="SW1_Dx_SEL">
+      <node ref="U1" pin="56"/>
+      <node ref="U4" pin="27"/>
+    </net>
+    <net code="35" name="SW1_OE">
+      <node ref="U4" pin="28"/>
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="36" name="Net-(U4-Pad19)">
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="37" name="RESET">
+      <node ref="U4" pin="29"/>
+      <node ref="ISP1" pin="5"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="HDMI5" pin="18"/>
+      <node ref="С11" pin="1"/>
+    </net>
+    <net code="39" name="HDMI_CEC_BUS">
+      <node ref="HDMI2" pin="13"/>
+      <node ref="HDMI3" pin="13"/>
+      <node ref="HDMI4" pin="13"/>
+      <node ref="HDMI1" pin="13"/>
+      <node ref="HDMI5" pin="13"/>
+    </net>
+    <net code="40" name="Net-(D2-Pad1)">
+      <node ref="R22" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="41" name="Net-(D3-Pad1)">
+      <node ref="R23" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="42" name="Net-(HDMI1-Pad18)">
+      <node ref="HDMI1" pin="18"/>
+    </net>
+    <net code="43" name="DC1HDMI5_N">
+      <node ref="HDMI5" pin="6"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="44" name="DC2HDMI5_P">
+      <node ref="HDMI5" pin="7"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="45" name="DC2HDMI5_N">
+      <node ref="HDMI5" pin="9"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="46" name="DC3HDMI5_P">
+      <node ref="U3" pin="11"/>
+      <node ref="HDMI5" pin="10"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="48" name="SCK_HDMI1">
+      <node ref="HDMI1" pin="15"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="49" name="DC1HDMI2_N">
+      <node ref="HDMI2" pin="6"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="50" name="DC2HDMI1_N">
+      <node ref="U1" pin="47"/>
+      <node ref="HDMI1" pin="9"/>
+    </net>
+    <net code="51" name="SDA_HDMI1">
+      <node ref="U1" pin="28"/>
+      <node ref="HDMI1" pin="16"/>
+    </net>
+    <net code="52" name="DC1HDMI2_P">
+      <node ref="U1" pin="38"/>
+      <node ref="HDMI2" pin="4"/>
+    </net>
+    <net code="53" name="DC2HDMI1_P">
+      <node ref="HDMI1" pin="7"/>
+      <node ref="U1" pin="48"/>
+    </net>
+    <net code="54" name="+5V">
+      <node ref="F1" pin="1"/>
+      <node ref="С14" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="С15" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="55" name="DC0HDMI3_P">
+      <node ref="U2" pin="54"/>
+      <node ref="HDMI3" pin="1"/>
+    </net>
+    <net code="56" name="HPD_SW2">
+      <node ref="U3" pin="16"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="57" name="Net-(U2-Pad25)">
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="58" name="DC2HDMI4_P">
+      <node ref="U2" pin="35"/>
+      <node ref="HDMI4" pin="7"/>
+    </net>
+    <net code="59" name="DC3HDMI3_P">
+      <node ref="U2" pin="45"/>
+      <node ref="HDMI3" pin="10"/>
+    </net>
+    <net code="60" name="SDA_SW2">
+      <node ref="U2" pin="26"/>
+      <node ref="U3" pin="28"/>
+    </net>
+    <net code="61" name="HPD_HDMI4">
+      <node ref="U2" pin="17"/>
+      <node ref="HDMI4" pin="19"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="62" name="DC1HDMI4_N">
+      <node ref="HDMI4" pin="6"/>
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="63" name="DC2HDMI3_N">
+      <node ref="U2" pin="47"/>
+      <node ref="HDMI3" pin="9"/>
+    </net>
+    <net code="64" name="DC3HDMI3_N">
+      <node ref="HDMI3" pin="12"/>
+      <node ref="U2" pin="44"/>
+    </net>
+    <net code="65" name="SCK_SW2">
+      <node ref="U3" pin="27"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="66" name="DC1HDMI4_P">
+      <node ref="U2" pin="38"/>
+      <node ref="HDMI4" pin="4"/>
+    </net>
+    <net code="67" name="DC2HDMI3_P">
+      <node ref="U2" pin="48"/>
+      <node ref="HDMI3" pin="7"/>
+    </net>
+    <net code="68" name="Net-(U2-Pad29)">
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="69" name="Net-(U3-Pad25)">
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="70" name="Net-(U3-Pad24)">
+      <node ref="U3" pin="24"/>
+    </net>
+    <net code="71" name="Net-(U3-Pad29)">
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="72" name="Net-(U3-Pad30)">
+      <node ref="U3" pin="30"/>
+    </net>
+    <net code="73" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="74" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="75" name="DC3SW2_P">
+      <node ref="U2" pin="11"/>
+      <node ref="U3" pin="45"/>
+    </net>
+    <net code="76" name="HPD_HDMI5">
+      <node ref="U3" pin="15"/>
+      <node ref="HDMI5" pin="19"/>
+    </net>
+    <net code="77" name="AUX_SEL_M">
+      <node ref="R14" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="78" name="DC0SW2_P">
+      <node ref="U2" pin="2"/>
+      <node ref="U3" pin="54"/>
+    </net>
+    <net code="79" name="DC0SW2_N">
+      <node ref="U3" pin="53"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="80" name="DC1SW2_P">
+      <node ref="U3" pin="51"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="81" name="DC1SW2_N">
+      <node ref="U2" pin="6"/>
+      <node ref="U3" pin="50"/>
+    </net>
+    <net code="82" name="DC2SW2_P">
+      <node ref="U2" pin="8"/>
+      <node ref="U3" pin="48"/>
+    </net>
+    <net code="83" name="DC2SW2_N">
+      <node ref="U2" pin="9"/>
+      <node ref="U3" pin="47"/>
+    </net>
+    <net code="84" name="Net-(U2-Pad30)">
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="85" name="DC0HDMI4_N">
+      <node ref="HDMI4" pin="3"/>
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="86" name="DC1HDMI3_N">
+      <node ref="U2" pin="50"/>
+      <node ref="HDMI3" pin="6"/>
+    </net>
+    <net code="87" name="DC3HDMI4_N">
+      <node ref="U2" pin="31"/>
+      <node ref="HDMI4" pin="12"/>
+    </net>
+    <net code="88" name="DC0HDMI4_P">
+      <node ref="HDMI4" pin="1"/>
+      <node ref="U2" pin="41"/>
+    </net>
+    <net code="89" name="DC1HDMI3_P">
+      <node ref="U2" pin="51"/>
+      <node ref="HDMI3" pin="4"/>
+    </net>
+    <net code="90" name="DC3SW2_N">
+      <node ref="U3" pin="44"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="91" name="SCK_HDMI4">
+      <node ref="HDMI4" pin="15"/>
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="92" name="DC3HDMI4_P">
+      <node ref="U2" pin="32"/>
+      <node ref="HDMI4" pin="10"/>
+    </net>
+    <net code="93" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="94" name="SDA_HDMI4">
+      <node ref="U2" pin="23"/>
+      <node ref="HDMI4" pin="16"/>
+    </net>
+    <net code="95" name="DC0HDMI3_N">
+      <node ref="HDMI3" pin="3"/>
+      <node ref="U2" pin="53"/>
+    </net>
+    <net code="96" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="97" name="Net-(U2-Pad24)">
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="98" name="DC2HDMI4_N">
+      <node ref="HDMI4" pin="9"/>
+      <node ref="U2" pin="34"/>
+    </net>
+    <net code="99" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="100" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="101" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="102" name="DC3HDMI2_P">
+      <node ref="U1" pin="32"/>
+      <node ref="HDMI2" pin="10"/>
+    </net>
+    <net code="103" name="DC1SW1_P">
+      <node ref="U3" pin="38"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="104" name="DC1SW1_N">
+      <node ref="U3" pin="37"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="105" name="DC2SW1_P">
+      <node ref="U1" pin="8"/>
+      <node ref="U3" pin="35"/>
+    </net>
+    <net code="106" name="DC2SW1_N">
+      <node ref="U3" pin="34"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="107" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="108" name="DC0HDMI2_N">
+      <node ref="HDMI2" pin="3"/>
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="109" name="DC1HDMI1_N">
+      <node ref="U1" pin="50"/>
+      <node ref="HDMI1" pin="6"/>
+    </net>
+    <net code="110" name="DC3SW1_P">
+      <node ref="U1" pin="11"/>
+      <node ref="U3" pin="32"/>
+    </net>
+    <net code="111" name="DC3HDMI2_N">
+      <node ref="U1" pin="31"/>
+      <node ref="HDMI2" pin="12"/>
+    </net>
+    <net code="112" name="DC0HDMI2_P">
+      <node ref="HDMI2" pin="1"/>
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="113" name="DC1HDMI1_P">
+      <node ref="HDMI1" pin="4"/>
+      <node ref="U1" pin="51"/>
+    </net>
+    <net code="114" name="DC3SW1_N">
+      <node ref="U3" pin="31"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="115" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="116" name="DC0HDMI1_N">
+      <node ref="U1" pin="53"/>
+      <node ref="HDMI1" pin="3"/>
+    </net>
+    <net code="117" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="118" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="119" name="DC2HDMI2_N">
+      <node ref="U1" pin="34"/>
+      <node ref="HDMI2" pin="9"/>
+    </net>
+    <net code="120" name="DC3HDMI1_N">
+      <node ref="U1" pin="44"/>
+      <node ref="HDMI1" pin="12"/>
+    </net>
+    <net code="121" name="DC0HDMI1_P">
+      <node ref="HDMI1" pin="1"/>
+      <node ref="U1" pin="54"/>
+    </net>
+    <net code="122" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="123" name="DC2HDMI2_P">
+      <node ref="HDMI2" pin="7"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="124" name="DC3HDMI1_P">
+      <node ref="HDMI1" pin="10"/>
+      <node ref="U1" pin="45"/>
+    </net>
+    <net code="125" name="DC0SW1_P">
+      <node ref="U1" pin="2"/>
+      <node ref="U3" pin="41"/>
+    </net>
+    <net code="126" name="DC0SW1_N">
+      <node ref="U1" pin="3"/>
+      <node ref="U3" pin="40"/>
+    </net>
+    <net code="127" name="DC1HDMI5_P">
+      <node ref="HDMI5" pin="4"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="128" name="DC0HDMI5_N">
+      <node ref="U3" pin="3"/>
+      <node ref="HDMI5" pin="3"/>
+    </net>
+    <net code="129" name="DC0HDMI5_P">
+      <node ref="HDMI5" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="130" name="DC3HDMI5_N">
+      <node ref="U3" pin="12"/>
+      <node ref="HDMI5" pin="12"/>
+    </net>
+    <net code="131" name="SCK_SW1">
+      <node ref="U3" pin="22"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="132" name="SDA_SW1">
+      <node ref="U3" pin="23"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="133" name="SCK_HDMI5">
+      <node ref="U3" pin="18"/>
+      <node ref="R10" pin="1"/>
+      <node ref="HDMI5" pin="15"/>
+    </net>
+    <net code="134" name="SDA_HDMI5">
+      <node ref="U3" pin="26"/>
+      <node ref="HDMI5" pin="16"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="135" name="HPD_SW1">
+      <node ref="U1" pin="15"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="136" name="SCK_HDMI2">
+      <node ref="U1" pin="22"/>
+      <node ref="HDMI2" pin="15"/>
+    </net>
+    <net code="137" name="SDA_HDMI2">
+      <node ref="U1" pin="23"/>
+      <node ref="HDMI2" pin="16"/>
+    </net>
+    <net code="138" name="Net-(HDMI2-Pad18)">
+      <node ref="HDMI2" pin="18"/>
+    </net>
+    <net code="139" name="HPD_HDMI2">
+      <node ref="R6" pin="1"/>
+      <node ref="HDMI2" pin="19"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="140" name="HPD_HDMI1">
+      <node ref="R5" pin="1"/>
+      <node ref="HDMI1" pin="19"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="141" name="Net-(HDMI4-Pad18)">
+      <node ref="HDMI4" pin="18"/>
+    </net>
+    <net code="142" name="SCK_HDMI3">
+      <node ref="HDMI3" pin="15"/>
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="143" name="SDA_HDMI3">
+      <node ref="U2" pin="28"/>
+      <node ref="HDMI3" pin="16"/>
+    </net>
+    <net code="144" name="Net-(HDMI3-Pad18)">
+      <node ref="HDMI3" pin="18"/>
+    </net>
+    <net code="145" name="HPD_HDMI3">
+      <node ref="U2" pin="16"/>
+      <node ref="R7" pin="1"/>
+      <node ref="HDMI3" pin="19"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KP-2012SGD
+D LED generic, alternativ symbol
+K led diode
+$ENDCMP
+#
+$CMP LED_ALT
+D LED generic, alternativ symbol
+K led diode
+$ENDCMP
+#
+$CMP TL3300
+D Push button switch, generic, symbol, four pins
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+#End Doc Library
