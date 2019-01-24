@@ -29,26 +29,15 @@ Main definitions file for MegaDrive++ R
 #define LENGTH_RESET 2
 
 // Pad button status map: S A C B R L D U, button is 0 if pressed
-/*
 #define COMBO_RESET       0x0F // Start + A + B + C          / ~(11110000)
-// Saves current region to EEPROM
-#define COMBO_SAVE        0x0B // Left + Start + A + B + C   / ~(11110100)
+#define COMBO_SAVE        0x0B // Left + Start + A + B + C   / ~(11110100) | Saves current region to EEPROM
 #define COMBO_USA         0x3B // Left + Start + A           / ~(11000100)
-#define COMBO_JAP         0x5B // Left + Start + C           / ~(10100100)
 #define COMBO_EUR         0x6B // Left + Start + B           / ~(10010100)
+#define COMBO_JAP         0x5B // Left + Start + C           / ~(10100100)
 #define COMBO_USA_RESET   0x37 // Right + Start + A          / ~(11001000)
-#define COMBO_JAP_RESET   0x57 // Right + Start + C          / ~(10101000)
 #define COMBO_EUR_RESET   0x67 // Right + Start + B          / ~(10011000)
-#define COMBO_OFF         0x00 // To use when no combo is currently active */
-#define COMBO_RESET       0x8F // A + B + C  / ~(01110000)
-#define COMBO_SAVE        0x8B // Left + Start + A + B + C   / ~(01110100)
-#define COMBO_USA         0xBB // Left + A   / ~(01000100)
-#define COMBO_JAP         0xDB // Left + C   / ~(00100100)
-#define COMBO_EUR         0xEB // Left + B   / ~(00010100)
-#define COMBO_USA_RESET   0xB7 // Right + A  / ~(01001000)
-#define COMBO_JAP_RESET   0xD7 // Right + C  / ~(00101000)
-#define COMBO_EUR_RESET   0xE7 // Right + B  / ~(00011000)
-#define COMBO_OFF         0x00
+#define COMBO_JAP_RESET   0x57 // Right + Start + C          / ~(10101000)
+#define COMBO_OFF         0x00 // To use when no combo is currently active, don't change this
 
 // Pins:    LANGUAGE    VIDEOMODE
 // USA:     HIGH        HIGH
@@ -74,26 +63,26 @@ Main definitions file for MegaDrive++ R
  * Pin assignments:
  * PORT B:
  * PORTB Map: 76XXX210
- * NTSC_LED — 0 (OUT)
- * JAP_LED — 1 (OUT)
- * PAD_DBG_LED — 2 (OUT)
- * MD_RESET_IN — 6 (IN) [UNUSED]
- * MD_RESET_OUT — 7 (IN/OUT)
+ * NTSC_LED         PB0 (OUT)
+ * JAP_LED          PB1 (OUT)
+ * PAD_DBG_LED      PB2 (OUT)
+ * MD_RESET_IN      PB6 (IN) [UNUSED]
+ * MD_RESET_OUT     PB7 (IN/OUT)
  * 
  * PORT C:
  * PORTC Map: XXXXXX10
- * NTSC — 0 (OUT)
- * JAP — 1 (OUT)
+ * NTSC     PC0 (OUT)
+ * JAP      PC1 (OUT)
  * 
  * PORT D:
- * PORTD Map: X6543210 / All inputs
- * MD_PAD_UP — 0 (Pad Pin 1 / UP)
- * MD_PAD_DOWN — 1 (Pad Pin 2 / DOWN)
- * MD_PAD_LEFT — 2 (Pad Pin 3 / LEFT)
- * MD_PAD_RIGHT — 3 (Pad Pin 4 / RIGHT)
- * MD_PAD_TL — 4 (Pad Pin 6 / A/B)
- * MD_PAD_TR — 5 (Pad Pin 9 / Start/C)
- * MD_PAD_TH — 6 (Pad Pin 7 / SELECT)
+ * PORTD Map: X6543210 / All are inputs except PD7
+ * MD_PAD_UP        PD0 (Pad Pin 1 / UP)
+ * MD_PAD_DOWN      PD1 (Pad Pin 2 / DOWN)
+ * MD_PAD_LEFT      PD2 (Pad Pin 3 / LEFT)
+ * MD_PAD_RIGHT     PD3 (Pad Pin 4 / RIGHT)
+ * MD_PAD_TL        PD4 (Pad Pin 6 / A/B)
+ * MD_PAD_TR        PD5 (Pad Pin 9 / Start/C)
+ * MD_PAD_TH        PD6 (Pad Pin 7 / SELECT)
  * 
  * Some technical notes on Mega Drive gamepads:
  *
