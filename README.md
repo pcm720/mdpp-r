@@ -7,8 +7,10 @@ It uses cheap ATmega88PA microcontroller, [cheap PCB](https://oshpark.com/shared
   - Hold **Right** instead of **Left** to change region **and** reset the console.
   - Hold **Left + Start + A + B + C** to save current region to memory and use it as default every time you turn on your console.
   - Hold the **Reset** button for more than four seconds to cycle through modes. This will reset the console.
-  - Combos can be customized in common.h.
+  - Button combos can be customized in common.h.
 - **In-game Reset**: hold **Start + A + B + C** to reset the console.
+- Dual-frequency oscillator support: PCB has a special pin for DFO control.
 - Unlike [MegaDrive++](https://github.com/SukkoPera/MegaDrivePlusPlus/), it doesn't support reset level autosensing, so to use it on boards with active-high reset signal you'll need to comment out a line in common.h. Note that this is untested: I don't own any consoles with active-high reset.
+- Suggested PCB layout is optimized for Model 2 VA1 board.
 
-Visit [wiki](https://github.com/pcm720/mdpp-r) for installation diagram for VA1 Model 2 Genesis.
+Visit [wiki](https://github.com/pcm720/mdpp-r/wiki) for installation diagram for Model 2 VA1 board.
